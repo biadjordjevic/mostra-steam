@@ -28,13 +28,16 @@ body{
     display: flex;
     list-style: none;
 }
+nav ul li{
+       margin-left: 20px;
+    margin-right: 20px;
+    min-width: 30px; 
+}
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    padding: 15px;
-
+    font-weight: 600;
   }
 
 nav p{
@@ -98,3 +101,182 @@ font-weight: 300;
     width: 600px;
     margin-right: 10px;
  }
+ .invasões-container{
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   column-gap: 20px;
+   row-gap: 20px;
+ }
+.invasões-linha1{
+   display: flex;
+   gap: 20px;
+}
+.invasões-linha2{
+   display: flex;
+   gap: 20px;
+}
+
+ .container-conflito{
+   max-width: 400px;
+   min-width: 400px;
+   color: white;
+   font-weight: 200;
+ }
+ #planejamento{
+   margin-top:20px ;
+   color: white;
+   font-weight: 200;
+ }
+ #planejamento h1{
+   margin-bottom: 10px;
+   font-weight: 400;
+ }
+ .container-conflito img{
+   min-width: 400px;
+   max-width: 400px;
+   max-height: 400px;
+   padding: 10px;
+ }
+  #condicoes{
+    margin-top: 10px;
+    color: white;
+ }
+ #condicoes h1{
+    font-weight: 300;
+    margin-bottom: 10px;
+ }
+ #condicoes p{
+    font-size: 19;
+    font-weight: 200;
+ }
+ .condicoes-texto2{
+    display: flex;
+    margin-top: 10px;
+ }
+ .condicoes-texto2 img{
+    height: 350px;
+    height: 350px;
+ }
+
+.container-condicoes1{
+    max-width: 500px;
+    margin-right: 20px;
+}
+#mudancas{
+    margin-top: 10px;
+    color: white;
+    display: flex;
+   margin-top: 30px;
+ }
+ #mudancas h1{
+    font-weight: 300;
+    margin-bottom: 10px;
+ }
+ #mudancas p{
+    font-size: 19;
+    font-weight: 200;
+ }
+ .mudancas-container{
+    max-width: 500px;
+ }
+ #mudancas img{
+    height: 350px;
+    height: 350px;
+    margin-left: 30px;
+ }
+ #consequencias{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    column-gap: 10px;
+ }
+ #consequencias h1{
+    font-weight: 300;
+    margin-bottom: 10px;
+ }
+ #consequencias p{
+    font-size: 19;
+    font-weight: 200;
+    margin-bottom: 20px;
+ }
+ .consequencias-container1{
+    max-width: 500px;
+ }
+ .consequencias-container1 img{
+    max-width: 400px;
+ }
+ .consequencias-container2{
+    max-width: 400px;
+ }
+ .consequencias-container2 img{
+    max-width: 400px;
+    margin-top: 10px;
+ }
+ .texto-consequencias{
+    margin-top: 20px;
+ }
+ 
+ .subtopico-2 h2{
+    font-weight: 300;
+}
+ .subtopico-2 p{
+    font-weight: 200;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    text-align: -webkit-match-parent;
+ }
+ .subtopico-2 {
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+ }
+ #influencia{
+    margin-top: 30px;
+    color: white;
+ }
+
+ #influencia p{
+    font-size: 19;
+    font-weight: 200;
+    margin-bottom: 20px;
+ }
+ #impactos{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    column-gap: 20px;
+ }
+ #impactos h1{
+    font-weight: 300;
+    margin-bottom: 10px;
+ }
+ #impactos ul li{
+    font-size: 19;
+    font-weight: 200;
+    margin-bottom: 20px;
+    text-decoration: none;
+ }
+
+ #btnTopo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;       
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  background-color: #64181c;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+#btnTopo:hover {
+  background-color: #64181c91;
+}
