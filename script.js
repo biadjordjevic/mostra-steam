@@ -17,3 +17,12 @@ btnTopo.onclick = function() {
     behavior: "smooth" 
   });
 };
+
+const btn = document.getElementById("refsbtn");
+const texto = document.getElementById("refs");
+
+btn.addEventListener("click", () => {
+  texto.classList.toggle("esconder");
+  btn.textContent = texto.classList.contains("esconder") ? "Mostrar referências" : "Fechar referências";
+});
+
